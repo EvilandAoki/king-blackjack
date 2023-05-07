@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Vite Blackjack</title>
+  </head>
+  <body>
+    <header class="head_blackjack"> 
+      Blackjack
+  </header>
+
+  <div>
+      <div id="section-buttons" class="col text-center">
+          <button id="new_game" class="btn btn-outline-primary"> nuevo juego </button>
+          <button id="give_card" class="btn btn-outline-danger"> Pedir Carta </button>
+          <button id="stop" class="btn btn-outline-light"> Detener </button>
+      </div>
+  </div>
+
+  <div class="row container" >
+      <div class="col" >
+          <h1> Player 1 - <small> 0 </small></h1>
+          <div id="jugador-cartas">
+              <!-- <img class="card_jack" src="assets/cartas/2C.png" alt=""> -->
+          </div>
+      </div>
+  </div>
+
+  <div  class="row container mt-2" >
+      <div  class="col" >
+          <h1> PC - <small> 0 </small></h1>
+          <div id="computadora-cartas" class="row">
+              <!-- <img class="card_jack" src="assets/cartas/2C.png" alt=""> -->
+          </div>
+      </div>
+  </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
